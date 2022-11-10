@@ -1,0 +1,82 @@
+/* judul */
+.content {
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.content h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content p {
+    text-size-adjust: 18px;
+    white-space: nowrap;
+}
+
+
+/* garis */
+.horizontal_line {
+    background-color: #f76d6d;
+    width: 50%;
+    height: 5px;
+    margin: auto;
+    line-height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* buletan */
+.bg-shape {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .bg-shape:after {
+    content: '';
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: #F7E9A0;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    top: -60%; /* change value as required */
+    right: -20%; /* change value as required */
+  }
+
+  
+
+ /* Boostrap Buttons Styling */
+ .btn {
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family:sans-serif;
+  }
+  
+  .btn-default {
+    padding: 10px 30px;
+    font-family: Raleway-SemiBold;
+    font-size: 13px;
+    line-height: 15px;
+    border-radius: 40px;
+    border: 0;
+    color: white;
+    background: #F77E7E;
+    transition: all 0.3s ease 0s;
+  }
+
+
+  
+/* border card */
+  .noborder {
+    border:0 !important
+  }
+ 
+  .height-25 {
+    height:25vh !important
+  }
