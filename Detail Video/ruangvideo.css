@@ -1,0 +1,34 @@
+/* buletan */
+
+.bg-shape {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .bg-shape:after {
+    content: '';
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: #F7E9A0;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    top: -60%; /* change value as required */
+    right: -20%; /* change value as required */
+  }
+
+  /* garis */
+.horizontal_line {
+    background-color: #f76d6d;
+    width: 20%;
+    height: 10px;
+    margin: auto;
+    line-height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
