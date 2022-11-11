@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;1,400&display=swap');
+
+/* buletan */
+.bg-shape {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .bg-shape:after {
+    content: '';
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: #F7E9A0;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    top: -60%; /* change value as required */
+    right: -20%; /* change value as required */
+  }
+
+#title {
+  font-weight: bold;
+  text-align: center;
+  place-items: center;
+}
+
+#title-2 {
+  text-align: left;
+  margin: auto;
+}
+
+.row {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+#desc-ri {
+  text-align: left;
+  margin: left;
+}
+
+  #btn-cta {
+    padding: 15px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    border-radius: 40px;
+    border: 0.5px black solid;
+    color: white;
+    background: #F76D6D;
+    position: relative;
+    left: -180px;
+  }
+
+#btn-cta:hover {
+  background-color: #FF8C8C;
+}
+
+.container2 {
+  background: #374785;
+  text-align: center;
+  place-items: center;
+  margin: auto;
+  padding: 80px 80px;
+  width: 60vw;
+  border-radius: 30px;
+  margin-top: 25px;
+  
+}
+
+#kategori {
+  cursor: none;
+  text-decoration: none;
+  background-color: #374785;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 3px 15px;
+}
+
+.house-rules {
+  background: #F76D6D;
+  border-radius: 20px;
+  border: 1.5px black solid;
+  padding: 15px;
+  margin: auto;
+  width: 60%;
+  position: relative;
+  left: 10px;
+  right: 10px;
+}
+
+
+h2 {
+  text-align: center;
+  place-content: center;
+  font-weight: bold;
+  color: white;
+}
+
+/* House Rules */
+
+#card-1 {
+  background: #F7E9A0;
+  border-radius: 10px;
+  height: 150px;
+  width: 100px;
+  margin: 20px;
+  border: 1px black solid;
+  margin-top: 20px;
+  position: relative;
+}
+
+#card-2 {
+  background: #F7E9A0;
+  border-radius: 10px;
+  height: 150px;
+  width: 100px;
+  margin: 20px;
+  border: 1px black solid;
+  margin-top: 20px;
+  position: relative;
+}
+
+#card-3 {
+  background: #F7E9A0;
+  border-radius: 10px;
+  height: 150px;
+  width: 100px;
+  margin: 20px;
+  border: 1px black solid;
+  margin-top: 20px;
+  position: relative;
+}
+
+h6 {
+  place-items: center;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: -5px;
+}
+
+
+.btn-cta {
+  color: black;
+  background-color: #F7E9A0;
+  border-radius: 20px;
+  padding: 12px 65px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+
+.user-1 {
+  background-color: #F7E9A0;
+  border-radius: 20px;
+  width: 40%;
+  position: relative;
+  left: 10px;
+  padding: 15px;
+  border: 1px black solid;
+  margin-right: 100px;
+}
+
+.user-2{
+  background-color: #F7E9A0;
+  border-radius: 20px;
+  width: 40%;
+  position: relative;
+  left: 100px;
+  padding: 15px;
+  border: 1px black solid;
+}
+
+#semua-cerita {
+  background-color: #F77E7E;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 5px 20px;
+}
+
+.input-field{
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+  
+}
+
+.textarea-field{
+  width: 100%;
+  height: 200px;
+}
+
+#ruangcurhat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.card{
+  background-color: #F7E9A0;
+  border-radius: 20px;
+  padding: 12px;
+}
+
+.card-title{
+  text-align: left;
+}
+
+
+.modal-content{
+  background: transparent;
+  border: none;
+}
+
+.modal-body{
+  width: 1000px
+}
+
+.modal-footer{
+  border: transparent;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 85%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+
+
+.center {
+    text-align: center;
+    /*These options are for the div to be visible in the example, the important is the first*/
+    /* border:1px solid black; */
+    width: auto;
+    height: 50px;
+}
+
+.cmb {
+    display: block;
+    margin: 0 auto;
+}
+
+/* button hr */
+.house-rules {
+    background: #F76D6D;
+    border-radius: 20px;
+    border: 1.5px black solid;
+    padding: 15px;
+    margin: auto;
+    width: 60%;
+    position: relative;
+    left: 10px;
+    right: 10px;
+  }
+
+  .house-rules:hover {
+    background-color: #F76D6D;
+  }
+  
