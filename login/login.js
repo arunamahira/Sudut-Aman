@@ -33,5 +33,22 @@ function onEyePasswordSignUp(element) {
 
 }
 
-
+function login(event) {
+    // console.log (event)
+    event.preventDefault()
+    // ngambil username & password
+    let userEmail = document.getElementById("userEmail").value
+    console.log(userEmail)
+    let loginpassword = document.getElementById("loginpassword").value
+    //console.log(loginpassword)
+  
+    // simpen data dalam bentuk object
+    const user = {
+      email : userEmail,
+      password: loginpassword
+    }
+  
+    //simpen ke local storage
+    localStorage.setItem(userEmail, JSON.stringify(user))
+  }
 
