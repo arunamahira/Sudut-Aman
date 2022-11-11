@@ -1,0 +1,15 @@
+footer {
+    background: #374785;
+    color: white;
+    margin-top: 5px;
+  }
+
+  h5 {
+color: #F7E9A0;
+    margin-left: 60px;
+  }
+/* @media screen (max-width: 576px) {
+#khusus {
+margin-left: 0px;
+}
+} */
