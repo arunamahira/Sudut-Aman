@@ -1,164 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
 .body {
-    background-color: #F7F3F1;
-  }
-  
-  #welcome-text {
-    text-align: center;
-    font-weight: bold;
-  }
-  
-  #desc-text {
-  /*   width: 415px; */
-    text-align: center;
-    display: grid;
-    place-items: center;
-    font-weight: 400;
-  }
-  
-  #btn-cta {
-    color: white;
-    background-color: #F76D6D;
-    border-radius: 20px;
-    padding: 9px 45px;
-    place-items: center;
-    font-size: 18px;
-    cursor: pointer;
-    font-weight: 600;
-    text-decoration: none;
-    border: 0.5px solid black;
-  }
-  
-  #btn-cta:hover {
-    background-color: #FF8C8C;
-  }
-  
-  #kate-sec {
-    background-color: #374785;
-    padding: 35px;
-    color: white;
-    border-radius: 20px;
-    border: 2px black solid;
-  }
-  
-  #ada-apa {
-    text-align: center;
-    display: grid;
-    place-items: center;
-  }
-  
-  #desc {
-    text-align: justify;
-    display: grid;
-    place-items: center;
-    justify-content: center;
-    margin: auto;
-    width: 80%;
-  }
-  
-  #cerita-kami {
-    text-align: center;
-    display: grid;
-    place-items: center;
-    font-weight: bold;
-  }
-  
-  #kami-adalah {
-    display: grid;
-    place-items: center;
-    align-items: center;
-    font-weight: 400;
-  }
-  
-  #kami-ingin {
-    display: inline-flex;
-  }
-  
-  #pencapaian-kami {
-    display: grid;
-    place-items: center;
-    align-items: center;
-    font-weight: bold;
-  }
-  
-  #apa-kata-mereka {
-    text-align: center;
-    display: grid;
-    place-items: center;
-    font-weight: bold;
-  }
-  
-  #kata-mereka-desc {
-    background-color: #374785;
-    padding: 35px;
-    color: white;
-    border-radius: 20px;
-    border: 2px black solid;
-  }
-  
-  #nama {
-    color: #F7E9A0;
-    margin-top: 15px;
-  }
-  
-  .rounded-circle {
+  background-color: #F7F3F1;
+}
+
+/* buletan */
+.bg-shape {
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    border: 2px white solid;
+    display: inline-block;
   }
-  
-  #ket {
-    text-align: justify;
-    display: grid;
-    place-items: center;
-    justify-content: center;
-    margin: auto;
-    width: 85%;
-  }
-  
-  #ayo-dukung {
-    text-align: center;
-    display: grid;
-    place-items: center;
-    font-weight: bold;
-  }
-  
-  .transfer-bank {
-    background-color: #F76D6D;
-    color: white;
-    width: 30%;
-    position: relative;
-    left: 200px;
-    padding: 15px;
-    border-radius: 20px;
-    border: 1px black solid;
-    margin-right: 50px;
-  }
-  
-  #title {
-    font-weight: bold;
-    text-align: center;
-    place-items: center;
-  }
-  
-  #trans-desc {
-    line-height: 30px;
-    text-align: left;
-    padding: auto;
-    position: relative;
-    left: 65px;
-  }
-  
-  .donasi {
+.bg-shape:after {
+    content: '';
+    position: absolute;
+    width: 600px;
+    height: 600px;
     background: #F7E9A0;
-    color: black;
-    padding: 15px;
-    border-radius: 20px;
-    border: 1px black solid;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    top: -60%; /* change value as required */
+    right: -20%; /* change value as required */
   }
-  
-  #kontak-ke {
-    text-align: left;
+
+#welcome-text {
+  text-align: center;
+  font-weight: bold;
+}
+
+#desc-text {
+/*   width: 415px; */
+  text-align: center;
+  display: grid;
+  place-items: center;
+  font-weight: 400;
+}
+
+#btn-cta {
+  color: white;
+  background-color: #F76D6D;
+  border-radius: 20px;
+  padding: 9px 45px;
+  place-items: center;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+  border: 0.5px solid black;
+}
+
+#btn-cta:hover {
+  background-color: #FF8C8C;
+}
+
+#kate-sec {
+  background-color: #374785;
+  padding: 35px;
+  color: white;
+  border-radius: 20px;
+  border: 2px black solid;
+}
+
+#ada-apa {
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+
+#desc {
+  text-align: justify;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+}
+
+#cerita-kami {
+  text-align: center;
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+}
+
+#kami-adalah {
+  display: grid;
+  place-items: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+#kami-ingin {
+  display: inline-flex;
+}
+
+#pencapaian-kami {
+  display: grid;
+  place-items: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+#apa-kata-mereka {
+  text-align: center;
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+}
+
+#kata-mereka-desc {
+  background-color: #374785;
+  padding: 35px;
+  color: white;
+  border-radius: 20px;
+  border: 2px black solid;
+}
+
+#nama {
+  color: #F7E9A0;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 2px white solid;
+}
+
+#ket {
+  text-align: justify;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 85%;
+}
+
+#ayo-dukung {
+  text-align: center;
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+}
+.transfer-bank {
+  background-color: #F76D6D;
+  color: white;
+  width: 30%;
+  position: relative;
+  left: 200px;
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px black solid;
+}
+
+#title {
+  font-weight: bold;
+  text-align: center;
+  place-items: center;
+}
+
+#trans-desc {
+  line-height: 30px;
+  text-align: left;
+  padding: auto;
+  position: relative;
+  left: 65px;
+}
+
+.donasi {
+  background-color: #F76D6D;
+  color: white;
+  width: 30%;
+  position: relative;
+  left: 200px;
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px black solid;
+}
+
+#kontak-ke {
+  text-align: left;
+  position: relative;
+  left: 65px;
+}
+
+  h4{
+    font-size: 15px;
     position: relative;
-    left: 65px;
-  }
+    top: 5px;
+}
+
+.container2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content{
+  background: transparent;
+  border: 0;
+}
+
+.form{
+  position: relative;
+  max-width: 430px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 6px;
+  background: #F7E9A0
+}
+
+header{
+  font-size: 28px;
+  font-weight: 600;
+  color:black;
+  text-align: center;
+}
+
+form{
+  margin-top: 30px;
+  
+}
+
+form .field{
+  position: relative;
+  height: 38px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.field input{
+  height: 100% !important;
+  width: 100%;
+  padding: 0 15px;
+  border: 0;
+  border-radius: 10px;
+}
+
+h6{ 
+  position: relative;
+  bottom: 60px;
+  text-align: right;
+}
+
+.field button {
+  width: 40%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: #F77E7E;
+  border: 0;
+  outline: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btn {
+  width: 23%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: #F77E7E;
+  border: 0;
+  outline: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.form-link{
+  text-align: center;
+  margin-top: 10px;
+
+}
+.form-link span,
+.form-link span a {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+span{
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.form a{
+  text-decoration: none;
+}
+
+.form a:hover{
+  text-decoration: underline;
+}
+
+.eye-icon{
+  position: absolute;
+  top: 120%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #8b8b8b;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.eye-icon2{
+  position: absolute;
+  top: 150%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #8b8b8b;
+  cursor: pointer;
+  padding: 5px;
+
+}
+
+.bxs-x-circle{
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: #8b8b8b;
+  cursor: pointer;
+  padding: 5px;
+
+}
+
+.isian input{
+  height: 40px !important;
+  width: 100%;
+  bottom: 0px;
+  padding: 0 15px;
+  border: 0;
+  border-radius: 10px;
+}
+
+p{
+  font-size: 15px;
+  position: relative;
+  top: 15px;
+}

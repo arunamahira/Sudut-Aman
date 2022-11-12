@@ -12,8 +12,51 @@
     <!-- link css -->
     <link rel="stylesheet" href="detailartikel.css">
 
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Quicksand:wght@500&display=swap');
+  
+      .navbar-brand {
+        cursor: pointer;
+        font-size: 32px;
+        color: #374785;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+      }
+  
+      .nav-item a {
+        color: black;
+        font-weight: 400;
+        font-size: 16px;
+      }
+    </style>
+
 </head>
 <body>
+
+  <nav class="navbar navbar-expand-lg" style="background: none;">
+    <div class="container">
+      <a class="navbar-brand" href="#">Sudut Aman</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--       <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../edusudutaman/ruangedu.html">Ruang Edukasi</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../ruang interaksi/index.html">Ruang Interaksi</a>
+        </li>
+      </ul>
+      <!--         <button type="button" class="btn btn-cta" style="color: white; background: #F76D6D; border-radius: 20px; padding: 8px 25px;">MASUK</button> -->
+    </div>
+</nav>
  
   <div id="detailartikel"></div> 
 
