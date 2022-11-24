@@ -33,11 +33,6 @@
   margin: auto;
 }
 
-.row {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
 
 #desc-ri {
   text-align: left;
@@ -52,13 +47,13 @@
     border-radius: 40px;
     border: 0.5px black solid;
     color: white;
-    background: #F76D6D;
+    background: #F77E7E;
     position: relative;
     left: -180px;
   }
 
 #btn-cta:hover {
-  background-color: #FF8C8C;
+  background-color: #F77E7E;
 }
 
 .container2 {
@@ -73,6 +68,10 @@
   
 }
 
+.container{
+  margin: auto;
+}
+
 #kategori {
   cursor: none;
   text-decoration: none;
@@ -84,7 +83,7 @@
 }
 
 .house-rules {
-  background: #F76D6D;
+  background: #F77E7E;
   border-radius: 20px;
   border: 1.5px black solid;
   padding: 15px;
@@ -109,8 +108,8 @@ h2 {
   background: #F7E9A0;
   border-radius: 10px;
   height: 150px;
-  width: 100px;
-  margin: 20px;
+  width: 120px;
+  margin: 10px;
   border: 1px black solid;
   margin-top: 20px;
   position: relative;
@@ -120,8 +119,8 @@ h2 {
   background: #F7E9A0;
   border-radius: 10px;
   height: 150px;
-  width: 100px;
-  margin: 20px;
+  width: 120px;
+  margin: 10px;
   border: 1px black solid;
   margin-top: 20px;
   position: relative;
@@ -131,11 +130,22 @@ h2 {
   background: #F7E9A0;
   border-radius: 10px;
   height: 150px;
-  width: 100px;
-  margin: 20px;
+  width: 130px;
+  margin: 10px;
   border: 1px black solid;
   margin-top: 20px;
   position: relative;
+}
+
+.btn-secondary {
+  margin-top: 40px;
+  place-items: center;
+  text-align: center;
+}
+
+.modal-footer{
+  place-items: center;
+  text-align: center;
 }
 
 h6 {
@@ -235,7 +245,8 @@ h6 {
 }
 
 .modal-body{
-  width: 1000px
+  padding: 10px;
+  width: 1000px;
 }
 
 .modal-footer{
@@ -244,6 +255,7 @@ h6 {
   position: absolute;
   text-align: center;
   top: 85%;
+  padding: 250px;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -281,3 +293,23 @@ h6 {
     background-color: #F76D6D;
   }
   
+  .modal-body2{
+    background-color: #F7E9A0;
+    border-radius: 20px;
+  }
+  
+  .modal-content2{
+    background: transparent;
+  }
+  
+  .modal-footer2{
+    margin-right: 180px;
+  }
+
+#submit {
+  background-color: #F77E7E;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+}
